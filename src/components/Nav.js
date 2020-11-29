@@ -4,7 +4,7 @@ import '../css/Nav.css';
 
 function Nav(){
   return (
-    <nav>
+    <nav className="nav-container">
         <ul>
             <li>
                 <Link to="/">Home</Link>
