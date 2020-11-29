@@ -1,0 +1,26 @@
+.about-container {
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    color: white;
+}
+
+.about-container .about-body {
+    width: 50vw;
+    height: 50vh;
+    background-color: #222C33;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-container .about-body p {
+    padding: 4vh 4vw 0 4vw;
+}
+
+.about-container .about-body a {
+    padding: 0 0 10vh 0;
+    text-align: center;    
+}
