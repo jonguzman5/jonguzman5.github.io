@@ -12,7 +12,11 @@ body {
     align-items: center;
 }
 
-.home-container h1, .home-container .home-body h3 {
+.home-container h1 {
+    color: white;
+}
+
+.home-container .home-body h3 {
     color: white;
     flex: 1 5 80vw;
     text-shadow: #fff 0px 0px 20px, #000 0px 10px 10px;
