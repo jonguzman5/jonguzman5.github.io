@@ -2,7 +2,6 @@ import React from 'react';
 import Nav from './Nav';
 import '../css/About.css';
 import resume from '../img/2020Resume.pdf';
-import download from '../img/download.png';
 
 function About(){
     return (
@@ -18,7 +17,7 @@ function About(){
                     Finds inspiration with every new project and uses learning experiences as building blocks for the next challenge. 
                     An individual with a background in visual arts, can bring unique perspective to the table.
                 </p>
-                <a src={download} href={resume} download>Download Resume</a>
+                <a href={resume} download>Download Resume</a>
             </div>
         </div>
     );

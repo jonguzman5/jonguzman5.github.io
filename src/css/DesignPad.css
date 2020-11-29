@@ -1,0 +1,19 @@
+.designpad-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.designpad-container .designpad-body {
+    display: flex;
+}
+.designpad-container .designpad-body img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.designpad-container .designpad-body .designpad-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 5vw;
+}

@@ -1,0 +1,47 @@
+.projects-container {
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    color: white;
+}
+
+.projects-container .projects-body {
+    width: 80vw;
+    height: 80vh;
+    background-color: #222C33;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 0 0 0;
+}
+
+/* ProjectCard */
+.projectcard-container {    
+    width: 15vw;
+    height: 40vh;    
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    color: white;
+    background-color: #364652;
+    /* border: 10px solid red; */
+}
+
+.projectcard-container .projectcard-header {
+    display: flex;
+    /* border: 10px solid green; */
+}
+
+.projectcard-container .projectcard-header img {
+    width: 5vw;
+    height: 10vw;
+    padding: 2vh 0 0 2vw;
+}
+
+.projectcard-container .projectcard-body {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* border: 10px solid blue; */
+}
