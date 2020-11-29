@@ -1,7 +1,9 @@
+/* global style */
 body {
     background-color: #141A1E;
 }
 
+/* home style */
 .home-container {    
     width: 100vw;
     height: 100vh;    
